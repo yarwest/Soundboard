@@ -1,3 +1,7 @@
+# Yarno Boelens
+# Soundboard soundboard.py
+# created on: 24-06-2017
+
 import pygame
 from os.path import dirname, abspath
 
