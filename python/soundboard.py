@@ -9,12 +9,12 @@ color = (0, 128, 255)
 font=pygame.font.Font(None,30)
 done = False
 buttons = [
-        [30,30,"Twee men", "twee-men"],
-        [30,100,"Pak ze", "pak-ze"],
-        [30,170,"Zo jammer", "zo-jammer"]#,
-        #[30,170,"Pang boem", "pang-boem"],
-        #[30,240,"Margriet", "margriet"],
-        #[30,310,"Badkamergesprekken", "badkamergesprekken"]
+        ["Twee men", "twee-men"],
+        ["Pak ze", "pak-ze"],
+        ["Zo jammer", "zo-jammer"]#,
+        #["Pang boem", "pang-boem"],
+        #["Margriet", "margriet"],
+        #["Badkamergesprekken", "badkamergesprekken"]
     ]
 buttonWidth = 240
 buttonHeight = 60
@@ -22,11 +22,13 @@ buttonHeight = 60
 sounds = []
 
 def initButtons():
+    x = 30
     for index, button in enumerate(buttons):
-        pygame.draw.rect(screen, color, pygame.Rect(button[0], button[1], buttonWidth, buttonHeight))
-        buttonText=font.render(button[2], 1,(0,0,0))
-        screen.blit(buttonText, (button[0]+15, button[1]+20))
-        sounds.append(pygame.mixer.Sound(dirname(dirname(abspath(__file__)))+'/audio/'+button[3]+'.ogg'))
+        y = 30 + (70*index)
+        pygame.draw.rect(screen, color, pygame.Rect(x, y, buttonWidth, buttonHeight))
+        buttonText=font.render(button[0], 1,(0,0,0))
+        screen.blit(buttonText, (x+15, y+20))
+        sounds.append(pygame.mixer.Sound(dirname(dirname(abspath(__file__)))+'/audio/'+button[1]+'.ogg'))
 
 initButtons()
 
@@ -35,8 +37,10 @@ while not done:
         if event.type == pygame.QUIT:
             done = True
         elif event.type == pygame.MOUSEBUTTONDOWN:
+            x = 30
             for index, button in enumerate(buttons):
-                if event.pos[0] >= button[0] and event.pos[0] <= button[0]+buttonWidth and event.pos[1] >= button[1] and event.pos[1] <= button[1]+buttonHeight:
+                y = 30 + (70*index)
+                if event.pos[0] >= x and event.pos[0] <= x+buttonWidth and event.pos[1] >= y and event.pos[1] <= y+buttonHeight:
                     pygame.mixer.stop()
                     sounds[index].play()
         pygame.display.flip()
