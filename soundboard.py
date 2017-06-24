@@ -7,7 +7,8 @@ screen = pygame.display.set_mode((750,750)#, pygame.FULLSCREEN, 16
 color = (0, 128, 255)
 font=pygame.font.Font(None,30)
 done = False
-buttons = [[30,30,"Pak ze", "pak-ze"],[30,100,"Pang boem", "pang-boem"],[30,170,"Margriet", "margriet"],[30,240,"Badkamergesprekken", "badkamergesprekken"]]
+buttons = [[30,30,"Twee men", "twee-men"],[30,100,"Pak ze", "pak-ze"],[30,170,"Zo jammer", "zo-jammer"]#,[30,170,"Pang boem", "pang-boem"],[30,240,"Margriet", "margriet"],[30,310,"Badkamergesprekken", "badkamergesprekken"]
+    ]
 buttonWidth = 240
 buttonHeight = 60
 
