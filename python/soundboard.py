@@ -13,9 +13,15 @@ color = (0, 128, 255)
 font=pygame.font.Font(None,30)
 done = False
 buttons = [
-        ["Twee men", "twee-men"],
-        ["Pak ze", "pak-ze"],
-        ["Zo jammer", "zo-jammer"]#,
+        ["pak-ze","Pak ze"],
+        ["koekoek","Koekoek"],
+        ["twee-men","Twee men"],
+        ["verkeerde-knopje","Verkeerde knopje"],
+        ["wtf-ricardo","WTF Ricardo?!"],
+        ["jaja","Jaja ja"],
+        ["hey-klootzak","Hey! Klootzak!"],
+        ["kutkutkut","Kutkutkut"],
+        ["zo-jammer","Zo jammer"]#,
         #["Pang boem", "pang-boem"],
         #["Margriet", "margriet"],
         #["Badkamergesprekken", "badkamergesprekken"]
@@ -30,9 +36,9 @@ def initButtons():
     for index, button in enumerate(buttons):
         y = 30 + (70*index)
         pygame.draw.rect(screen, color, pygame.Rect(x, y, buttonWidth, buttonHeight))
-        buttonText=font.render(button[0], 1,(0,0,0))
+        buttonText=font.render(button[1], 1,(0,0,0))
         screen.blit(buttonText, (x+15, y+20))
-        sounds.append(pygame.mixer.Sound(dirname(dirname(abspath(__file__)))+'/audio/'+button[1]+'.ogg'))
+        sounds.append(pygame.mixer.Sound(dirname(dirname(abspath(__file__)))+"/audio/"+button[0]+".ogg"))
 
 initButtons()
 
