@@ -26,11 +26,6 @@ var files = [
         author:'flokkie'
     },
     {
-        name:'koekoek',
-        title:'Koekoek',
-        author:'flokkie'
-    },
-    {
         name:'wtf-ricardo',
         title:'WTF Ricardo?!',
         author:'flokkie'
