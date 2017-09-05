@@ -65,6 +65,15 @@ body {
     -webkit-filter: grayscale(0);
     /* not sure if this line works */
     filter: white;
+    cursor: pointer;
+}
+
+.soundItem p {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
 }
 
 .flokkie {
