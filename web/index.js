@@ -52,11 +52,12 @@ var files = [
     }
 ];
 
-var audio = new Audio();
+var audio = new Audio(),
+    pageBody = document.getElementById('page-body');
 
 files.forEach(function(file){
-    var p = document.createElement("p");
-    var text = document.createTextNode(file.title);
+    var p = document.createElement("p"),
+        text = document.createTextNode(file.title);
     p.appendChild(text);
     var div = document.createElement("div");
     div.appendChild(p);
@@ -64,7 +65,7 @@ files.forEach(function(file){
     div.onclick = function(){
         play(file.name);
     };
-    document.getElementById('page-body').appendChild(div);
+    pageBody.appendChild(div);
 });
 
 function play(file) {
