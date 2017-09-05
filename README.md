@@ -1,7 +1,7 @@
 # Soundboard
-Collection of memes from our friendsgroup brought together in a soundboard.
+Collection of memes from our friends group brought together in a soundboard.
 
-I thought it would be fun to try to make this app crossplatform on a couple of often used platforms.
+I thought it would be fun to try to make this app cross platform on a couple of often used platforms.
 
 ## The goal
 The goal of the app is to have a fun, nice looking, functional sound board with the memes (that can be found in the audio directory).
@@ -24,4 +24,4 @@ Feel free to fork the repo and make contributions by either improving an existin
 
 Whenever you have a 'finished' contribution, you can make a pull request to the master branch and it'll be looked at to see if it fits the standards and if it works.
 
-After merging, the code will be provided of your username to show who contributed to which parts.
+After merging, the code will be provided of your user name to show who contributed to which parts.
