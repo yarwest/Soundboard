@@ -11,15 +11,16 @@ pygame.mixer.init(frequency=22050, size=-16, channels=2, buffer=4096)
 screen = pygame.display.set_mode((750,750)#, pygame.FULLSCREEN, 16
     )
 
+projectRoot = dirname(dirname(abspath(__file__)))
 font=pygame.font.Font(None,30)
 
 tracks = []
-for file in listdir(dirname(dirname(abspath(__file__)))+"/audio/"):
+for file in listdir(projectRoot+"/audio/"):
     if file.endswith(".ogg"):
         tracks.append(file)
 
 imageNames = []
-for file in listdir(dirname(dirname(abspath(__file__)))+"/images/"):
+for file in listdir(projectRoot+"/images/"):
     imageNames.append(file)
 
 buttonWidth = 120
@@ -31,7 +32,7 @@ done = False
 def initButtons():
     loadedImages = {}
     for imageName in imageNames:
-        loadedImage = pygame.image.load(dirname(dirname(abspath(__file__)))+"/images/"+imageName)
+        loadedImage = pygame.image.load(projectRoot+"/images/"+imageName)
         loadedImages[imageName] = pygame.transform.scale(loadedImage, (buttonWidth,buttonHeight)).convert_alpha()
 
     for index, track in enumerate(tracks):
@@ -43,7 +44,7 @@ def initButtons():
         buttonText=font.render(track.strip(".ogg"), 1,(255,255,255))
         screen.blit(buttonText, (x+15, y+20))
 
-        sounds.append(pygame.mixer.Sound(dirname(dirname(abspath(__file__)))+"/audio/"+track))
+        sounds.append(pygame.mixer.Sound(projectRoot+"/audio/"+track))
 
 initButtons()
 
