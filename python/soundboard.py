@@ -64,7 +64,7 @@ while not done:
             button = checkButtonHit(event.pos)
             if button != -1:
                 pygame.mixer.stop()
-                sounds[index].play()
+                sounds[button].play()
         elif event.type == pygame.MOUSEMOTION:
             button = checkButtonHit(event.pos)
             if button != -1:
