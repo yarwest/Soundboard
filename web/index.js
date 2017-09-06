@@ -6,57 +6,57 @@
 
 var files = [
     {
-        name:'pak-ze',
+        name:'flokkie|Are-you-the-aardappel?',
         title:'Pak ze',
         author:'flokkie'
     },
     {
-        name:'koekoek',
+        name:'flokkie|Koekoek',
         title:'Koekoek',
         author:'flokkie'
     },
     {
-        name:'twee-men',
+        name:'flokkie|Twee-men',
         title:'Twee men',
         author:'flokkie'
     },
     {
-        name:'verkeerde-knopje',
+        name:'flokkie|Verkeerde-knopje',
         title:'Verkeerde knopje',
         author:'flokkie'
     },
     {
-        name:'wtf-ricardo',
+        name:'flokkie|WTF-Ricardo',
         title:'WTF Ricardo?!',
         author:'flokkie'
     },
     {
-        name:'jaja',
+        name:'flokkie|Jaja-ja',
         title:'Jaja ja',
         author:'flokkie'
     },
     {
-        name:'are-you-aardappel',
+        name:'flokkie|Are-you-the-aardappel?',
         title:'Are you the aardappel?',
         author:'flokkie'
     },
     {
-        name:'i-am-aardappel',
+        name:'flokkie|I-am-the-aardappel',
         title:'I am the aardappel',
         author:'flokkie'
     },
     {
-        name:'hey-klootzak',
+        name:'jos|Hey-klootzak',
         title:'Hey! Klootzak!',
         author:'jos'
     },
     {
-        name:'kutkutkut',
+        name:'jelle|Kutkutkut',
         title:'Kutkutkut',
         author:'jelle'
     },
     {
-        name:'zo-jammer',
+        name:'yarno|Zo-jammer',
         title:'Zo jammer',
         author:'yarno'
     }
