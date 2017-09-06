@@ -20,17 +20,17 @@ for file in listdir(dirname(dirname(abspath(__file__)))+"/audio/"):
 print tracks
 
 buttons = [
-    ("Pak ze","flokkie"),
-    ("Koekoek","flokkie"),
-    ("Twee men","flokkie"),
-    ("Verkeerde knopje","flokkie"),
-    ("WTF Ricardo?!","flokkie"),
-    ("Jaja ja","flokkie"),
-    ("Hey! Klootzak!","jos"),
-    ("Kutkutkut","jelle"),
-    ("Zo jammer","yarno"),
-    ("Are you the aardappel?","flokkie"),
-    ("I am the aardappel","flokkie")
+    "flokkie",
+    "flokkie",
+    "flokkie",
+    "flokkie",
+    "flokkie",
+    "flokkie",
+    "jos",
+    "jelle",
+    "yarno",
+    "flokkie",
+    "flokkie"
 ]
 
 imageNames = [
@@ -56,9 +56,9 @@ def initButtons():
         x = 30 + (140*(index%3))
         y = 30 + (155*(index/3))
 
-        screen.blit(images[buttons[index][1]], (x,y))
+        screen.blit(images[buttons[index]], (x,y))
 
-        buttonText=font.render(buttons[index][0], 1,(255,255,255))
+        buttonText=font.render(track.strip(".ogg"), 1,(255,255,255))
         screen.blit(buttonText, (x+15, y+20))
 
         sounds.append(pygame.mixer.Sound(dirname(dirname(abspath(__file__)))+"/audio/"+track))
