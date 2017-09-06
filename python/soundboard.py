@@ -56,14 +56,14 @@ while not done:
         if event.type == pygame.QUIT:
             done = True
         elif event.type == pygame.MOUSEBUTTONDOWN:
-            for index, button in enumerate(buttons):
+            for index, button in enumerate(tracks):
                 x = 30 + (140*(index%3))
                 y = 30 + (155*(index/3))
                 if event.pos[0] >= x and event.pos[0] <= x+buttonWidth and event.pos[1] >= y and event.pos[1] <= y+buttonHeight:
                     pygame.mixer.stop()
                     sounds[index].play()
         elif event.type == pygame.MOUSEMOTION:
-            for index, button in enumerate(buttons):
+            for index, button in enumerate(tracks):
                 x = 30 + (140*(index%3))
                 y = 30 + (155*(index/3))
                 if event.pos[0] >= x and event.pos[0] <= x+buttonWidth and event.pos[1] >= y and event.pos[1] <= y+buttonHeight:
