@@ -61,10 +61,12 @@ while not done:
         if event.type == pygame.QUIT:
             done = True
         elif event.type == pygame.MOUSEBUTTONDOWN:
-            if index = checkButtonHit(event.pos) != -1:
+            button = checkButtonHit(event.pos)
+            if button != -1:
                 pygame.mixer.stop()
                 sounds[index].play()
         elif event.type == pygame.MOUSEMOTION:
-            if checkButtonHit(event.pos) != -1:
+            button = checkButtonHit(event.pos)
+            if button != -1:
                 print "got hovered"
         pygame.display.flip()
