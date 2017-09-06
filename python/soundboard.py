@@ -45,6 +45,15 @@ def initButtons():
 
         sounds.append(pygame.mixer.Sound(projectRoot+"/audio/"+track))
 
+def checkButtonHit(pos):
+    returnVal = -1
+    for index, button in enumerate(sounds):
+        x = 30 + (140*(index%3))
+        y = 30 + (155*(index/3))
+        if pos[0] >= x and pos[0] <= x+buttonWidth and pos[1] >= y and pos[1] <= y+buttonHeight:
+            returnVal = index
+    return returnVal
+
 initButtons()
 
 while not done:
@@ -52,16 +61,10 @@ while not done:
         if event.type == pygame.QUIT:
             done = True
         elif event.type == pygame.MOUSEBUTTONDOWN:
-            for index, button in enumerate(sounds):
-                x = 30 + (140*(index%3))
-                y = 30 + (155*(index/3))
-                if event.pos[0] >= x and event.pos[0] <= x+buttonWidth and event.pos[1] >= y and event.pos[1] <= y+buttonHeight:
-                    pygame.mixer.stop()
-                    sounds[index].play()
+            if index = checkButtonHit(event.pos) != -1:
+                pygame.mixer.stop()
+                sounds[index].play()
         elif event.type == pygame.MOUSEMOTION:
-            for index, button in enumerate(sounds):
-                x = 30 + (140*(index%3))
-                y = 30 + (155*(index/3))
-                if event.pos[0] >= x and event.pos[0] <= x+buttonWidth and event.pos[1] >= y and event.pos[1] <= y+buttonHeight:
-                    print "got hovered"
+            if checkButtonHit(event.pos) != -1:
+                print "got hovered"
         pygame.display.flip()
