@@ -19,20 +19,6 @@ for file in listdir(dirname(dirname(abspath(__file__)))+"/audio/"):
         tracks.append(file)
 print tracks
 
-buttons = [
-    "flokkie",
-    "flokkie",
-    "flokkie",
-    "flokkie",
-    "flokkie",
-    "flokkie",
-    "jos",
-    "jelle",
-    "yarno",
-    "flokkie",
-    "flokkie"
-]
-
 imageNames = [
     "flokkie",
     "jos",
@@ -56,7 +42,7 @@ def initButtons():
         x = 30 + (140*(index%3))
         y = 30 + (155*(index/3))
 
-        screen.blit(images[buttons[index]], (x,y))
+        screen.blit(images["flokkie"], (x,y))
 
         buttonText=font.render(track.strip(".ogg"), 1,(255,255,255))
         screen.blit(buttonText, (x+15, y+20))
