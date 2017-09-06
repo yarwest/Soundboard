@@ -17,32 +17,28 @@ tracks = []
 for file in listdir(dirname(dirname(abspath(__file__)))+"/audio/"):
     if file.endswith(".ogg"):
         tracks.append(file)
-print tracks
 
-imageNames = [
-    "flokkie",
-    "jos",
-    "jelle",
-    "yarno"
-]
+imageNames = []
+for file in listdir(dirname(dirname(abspath(__file__)))+"/images/"):
+    imageNames.append(file)
 
 buttonWidth = 120
 buttonHeight = 130
 
 sounds = []
-images = {}
 done = False
 
 def initButtons():
+    loadedImages = {}
     for imageName in imageNames:
-        image = pygame.image.load(dirname(dirname(abspath(__file__)))+"/images/"+imageName+".jpg")
-        images[imageName] = pygame.transform.scale(image, (buttonWidth,buttonHeight)).convert_alpha()
+        loadedImage = pygame.image.load(dirname(dirname(abspath(__file__)))+"/images/"+imageName)
+        loadedImages[imageName] = pygame.transform.scale(loadedImage, (buttonWidth,buttonHeight)).convert_alpha()
 
     for index, track in enumerate(tracks):
         x = 30 + (140*(index%3))
         y = 30 + (155*(index/3))
 
-        screen.blit(images["flokkie"], (x,y))
+        screen.blit(loadedImages["flokkie.jpg"], (x,y))
 
         buttonText=font.render(track.strip(".ogg"), 1,(255,255,255))
         screen.blit(buttonText, (x+15, y+20))
