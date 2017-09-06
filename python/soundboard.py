@@ -21,7 +21,9 @@ buttons = [
     ["jaja","Jaja ja","flokkie"],
     ["hey-klootzak","Hey! Klootzak!","jos"],
     ["kutkutkut","Kutkutkut","jelle"],
-    ["zo-jammer","Zo jammer","yarno"]#,
+    ["zo-jammer","Zo jammer","yarno"],
+    ["are-you-aardappel","Are you the aardappel?","flokkie"],
+    ["i-am-aardappel","I am the aardappel","flokkie"]#,
     #["Pang boem", "pang-boem"],
     #["Margriet", "margriet"],
     #["Badkamergesprekken", "badkamergesprekken"]
