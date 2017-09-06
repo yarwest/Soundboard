@@ -36,6 +36,16 @@ var files = [
         author:'flokkie'
     },
     {
+        name:'are-you-aardappel',
+        title:'Are you the aardappel?',
+        author:'flokkie'
+    },
+    {
+        name:'i-am-aardappel',
+        title:'I am the aardappel',
+        author:'flokkie'
+    },
+    {
         name:'hey-klootzak',
         title:'Hey! Klootzak!',
         author:'jos'
