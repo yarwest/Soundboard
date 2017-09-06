@@ -4,6 +4,7 @@
 
 import pygame
 from os.path import dirname, abspath
+from os import listdir
 
 pygame.init()
 pygame.mixer.init(frequency=22050, size=-16, channels=2, buffer=4096)
@@ -12,21 +13,24 @@ screen = pygame.display.set_mode((750,750)#, pygame.FULLSCREEN, 16
 
 font=pygame.font.Font(None,30)
 
+tracks = []
+for file in listdir(dirname(dirname(abspath(__file__)))+"/audio/"):
+    if file.endswith(".ogg"):
+        tracks.append(file)
+print tracks
+
 buttons = [
-    ["pak-ze","Pak ze","flokkie"],
-    ["koekoek","Koekoek","flokkie"],
-    ["twee-men","Twee men","flokkie"],
-    ["verkeerde-knopje","Verkeerde knopje","flokkie"],
-    ["wtf-ricardo","WTF Ricardo?!","flokkie"],
-    ["jaja","Jaja ja","flokkie"],
-    ["hey-klootzak","Hey! Klootzak!","jos"],
-    ["kutkutkut","Kutkutkut","jelle"],
-    ["zo-jammer","Zo jammer","yarno"],
-    ["are-you-aardappel","Are you the aardappel?","flokkie"],
-    ["i-am-aardappel","I am the aardappel","flokkie"]#,
-    #["Pang boem", "pang-boem"],
-    #["Margriet", "margriet"],
-    #["Badkamergesprekken", "badkamergesprekken"]
+    ("Pak ze","flokkie"),
+    ("Koekoek","flokkie"),
+    ("Twee men","flokkie"),
+    ("Verkeerde knopje","flokkie"),
+    ("WTF Ricardo?!","flokkie"),
+    ("Jaja ja","flokkie"),
+    ("Hey! Klootzak!","jos"),
+    ("Kutkutkut","jelle"),
+    ("Zo jammer","yarno"),
+    ("Are you the aardappel?","flokkie"),
+    ("I am the aardappel","flokkie")
 ]
 
 imageNames = [
@@ -48,16 +52,16 @@ def initButtons():
         image = pygame.image.load(dirname(dirname(abspath(__file__)))+"/images/"+imageName+".jpg")
         images[imageName] = pygame.transform.scale(image, (buttonWidth,buttonHeight)).convert_alpha()
 
-    for index, button in enumerate(buttons):
+    for index, track in enumerate(tracks):
         x = 30 + (140*(index%3))
         y = 30 + (155*(index/3))
 
-        screen.blit(images[button[2]], (x,y))
+        screen.blit(images[buttons[index][1]], (x,y))
 
-        buttonText=font.render(button[1], 1,(255,255,255))
+        buttonText=font.render(buttons[index][0], 1,(255,255,255))
         screen.blit(buttonText, (x+15, y+20))
 
-        sounds.append(pygame.mixer.Sound(dirname(dirname(abspath(__file__)))+"/audio/"+button[0]+".ogg"))
+        sounds.append(pygame.mixer.Sound(dirname(dirname(abspath(__file__)))+"/audio/"+track))
 
 initButtons()
 
