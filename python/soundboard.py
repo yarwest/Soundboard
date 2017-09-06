@@ -32,18 +32,20 @@ def initButtons():
     tracks = []
     for file in listdir(projectRoot+"/audio/"):
         if file.endswith(".ogg"):
-            tracks.append(file)
+            author, track = file.split("|")
+            track.replace("-", " ")
+            tracks.append((author, track, file))
 
     for index, track in enumerate(tracks):
         x = 30 + (140*(index%3))
         y = 30 + (155*(index/3))
 
-        screen.blit(loadedImages["flokkie.jpg"], (x,y))
+        screen.blit(loadedImages[track[0]+".jpg"], (x,y))
 
-        buttonText=font.render(track.strip(".ogg"), 1,(255,255,255))
+        buttonText=font.render(track[1].strip(".ogg"), 1,(255,255,255))
         screen.blit(buttonText, (x+15, y+20))
 
-        sounds.append(pygame.mixer.Sound(projectRoot+"/audio/"+track))
+        sounds.append(pygame.mixer.Sound(projectRoot+"/audio/"+track[2]))
 
 def checkButtonHit(pos):
     returnVal = -1
