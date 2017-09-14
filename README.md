@@ -1,3 +1,5 @@
+WINDOWS MESSES WITH THE NAMING CONVENTION, A SOLUTION IS BEING WORKED ON BUT AS OF RIGHT NOW NOTHING IS WORKING ON WINDOWS.
+
 # Soundboard
 Collection of memes from our friends group brought together in a soundboard.
 
@@ -11,7 +13,7 @@ The platforms I'd like to have the app working on:
 * Ubuntu 16.* 64-bit
 * Mac OS (insert whatever version, I don't know mac)
 * Android (insert whatever version, I don't know android)
-* IOS (I don't know what a reasonable version is, but it would be cool if it could run on my phone (IOS 7 orso))
+* IOS (I don't know what a reasonable version is, but it would be cool if it could run on my old phone (IOS 7 orso))
 * Web
 
 Because of the multitude of languages and platforms, every pull request and commit should be prefaced with either the language or platform it is related to. For example, a commit to the python implementation should be prefaced with [PYTHON], while the javascript/html implementation should be prefaced with [WEB].
