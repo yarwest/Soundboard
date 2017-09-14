@@ -1,13 +1,18 @@
 /*
 	Yarno Boelens
 	Soundboard index.js
-	created on: 25-06-2017
+	created on: 25 06 2017
 */
 
 var files = [
     {
-        name:'flokkie|Are-you-the-aardappel?',
+        name:'flokkie|Pak ze',
         title:'Pak ze',
+        author:'flokkie'
+    },
+    {
+        name:'flokkie|Hey Evert',
+        title:'Hey Evert',
         author:'flokkie'
     },
     {
@@ -16,39 +21,64 @@ var files = [
         author:'flokkie'
     },
     {
-        name:'flokkie|Twee-men',
+        name:'flokkie|Twee men',
         title:'Twee men',
         author:'flokkie'
     },
     {
-        name:'flokkie|Verkeerde-knopje',
+        name:'flokkie|Verkeerde knopje',
         title:'Verkeerde knopje',
         author:'flokkie'
     },
     {
-        name:'flokkie|WTF-Ricardo',
+        name:'flokkie|WTF Ricardo',
         title:'WTF Ricardo?!',
         author:'flokkie'
     },
     {
-        name:'flokkie|Jaja-ja',
+        name:'flokkie|Wat doet ie nou',
+        title:'Wat doet ie nou',
+        author:'flokkie'
+    },
+    {
+        name:'flokkie|Wat doe je nou Jos?',
+        title:'Wat doe je nou Jos?',
+        author:'flokkie'
+    },
+    {
+        name:'flokkie|Zo fucking kansloos',
+        title:'Zo fucking kansloos',
+        author:'flokkie'
+    },
+    {
+        name:'flokkie|Jaja ja',
         title:'Jaja ja',
         author:'flokkie'
     },
     {
-        name:'flokkie|Are-you-the-aardappel?',
+        name:'flokkie|Are you the aardappel?',
         title:'Are you the aardappel?',
         author:'flokkie'
     },
     {
-        name:'flokkie|I-am-the-aardappel',
+        name:'flokkie|I am the aardappel',
         title:'I am the aardappel',
         author:'flokkie'
     },
     {
-        name:'jos|Hey-klootzak',
+        name:'jos|Hey klootzak',
         title:'Hey! Klootzak!',
         author:'jos'
+    },
+    {
+        name:'wim|Goed gehydrateerd blijven',
+        title:'Goed gehydrateerd blijven',
+        author:'wim'
+    },
+    {
+        name:'wim|Ha! Ik heb mijn neus dicht',
+        title:'Ha! Ik heb mijn neus dicht',
+        author:'wim'
     },
     {
         name:'jelle|Kutkutkut',
@@ -56,7 +86,12 @@ var files = [
         author:'jelle'
     },
     {
-        name:'yarno|Zo-jammer',
+        name:'yarno|Best Reload Moment Ever',
+        title:'Best Reload Moment Ever',
+        author:'yarno'
+    },
+    {
+        name:'yarno|Zo jammer',
         title:'Zo jammer',
         author:'yarno'
     }
