@@ -41,7 +41,7 @@ var files = [
         author:'flokkie'
     },
     {
-        name:'flokkie|Wat doe je nou Jos?',
+        name:'flokkie|Wat doe je nou Jos',
         title:'Wat doe je nou Jos?',
         author:'flokkie'
     },
@@ -56,7 +56,7 @@ var files = [
         author:'flokkie'
     },
     {
-        name:'flokkie|Are you the aardappel?',
+        name:'flokkie|Are you the aardappel',
         title:'Are you the aardappel?',
         author:'flokkie'
     },
