@@ -1,4 +1,4 @@
-WINDOWS MESSES WITH THE NAMING CONVENTION, A SOLUTION IS BEING WORKED ON BUT AS OF RIGHT NOW NOTHING IS WORKING ON WINDOWS.
+It is thought that the Windows related file name issue is resolved but it is not tested yet.
 
 # Soundboard
 Collection of memes from our friends group brought together in a soundboard.
