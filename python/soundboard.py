@@ -32,7 +32,7 @@ def initButtons():
     tracks = []
     for file in listdir(projectRoot+"/audio/"):
         if file.endswith(".ogg"):
-            author, track = file.split("|")
+            author, track = file.split("_")
             tracks.append((author, track, file))
 
     for index, track in enumerate(tracks):

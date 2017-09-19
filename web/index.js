@@ -6,92 +6,92 @@
 
 var files = [
     {
-        name:'flokkie|Pak ze',
+        name:'flokkie_Pak ze',
         title:'Pak ze',
         author:'flokkie'
     },
     {
-        name:'flokkie|Hey Evert',
+        name:'flokkie_Hey Evert',
         title:'Hey Evert',
         author:'flokkie'
     },
     {
-        name:'flokkie|Koekoek',
+        name:'flokkie_Koekoek',
         title:'Koekoek',
         author:'flokkie'
     },
     {
-        name:'flokkie|Twee men',
+        name:'flokkie_Twee men',
         title:'Twee men',
         author:'flokkie'
     },
     {
-        name:'flokkie|Verkeerde knopje',
+        name:'flokkie_Verkeerde knopje',
         title:'Verkeerde knopje',
         author:'flokkie'
     },
     {
-        name:'flokkie|WTF Ricardo',
+        name:'flokkie_WTF Ricardo',
         title:'WTF Ricardo?!',
         author:'flokkie'
     },
     {
-        name:'flokkie|Wat doet ie nou',
+        name:'flokkie_Wat doet ie nou',
         title:'Wat doet ie nou',
         author:'flokkie'
     },
     {
-        name:'flokkie|Wat doe je nou Jos',
+        name:'flokkie_Wat doe je nou Jos',
         title:'Wat doe je nou Jos?',
         author:'flokkie'
     },
     {
-        name:'flokkie|Zo fucking kansloos',
+        name:'flokkie_Zo fucking kansloos',
         title:'Zo fucking kansloos',
         author:'flokkie'
     },
     {
-        name:'flokkie|Jaja ja',
+        name:'flokkie_Jaja ja',
         title:'Jaja ja',
         author:'flokkie'
     },
     {
-        name:'flokkie|Are you the aardappel',
+        name:'flokkie_Are you the aardappel',
         title:'Are you the aardappel?',
         author:'flokkie'
     },
     {
-        name:'flokkie|I am the aardappel',
+        name:'flokkie_I am the aardappel',
         title:'I am the aardappel',
         author:'flokkie'
     },
     {
-        name:'jos|Hey klootzak',
+        name:'jos_Hey klootzak',
         title:'Hey! Klootzak!',
         author:'jos'
     },
     {
-        name:'wim|Goed gehydrateerd blijven',
+        name:'wim_Goed gehydrateerd blijven',
         title:'Goed gehydrateerd blijven',
         author:'wim'
     },
     {
-        name:'wim|Ha! Ik heb mijn neus dicht',
+        name:'wim_Ha! Ik heb mijn neus dicht',
         title:'Ha! Ik heb mijn neus dicht',
         author:'wim'
     },
     {
-        name:'jelle|Kutkutkut',
+        name:'jelle_Kutkutkut',
         title:'Kutkutkut',
         author:'jelle'
     },
     {
-        name:'yarno|Best Reload Moment Ever',
+        name:'yarno_Best Reload Moment Ever',
         title:'Best Reload Moment Ever',
         author:'yarno'
     },
     {
-        name:'yarno|Zo jammer',
+        name:'yarno_Zo jammer',
         title:'Zo jammer',
         author:'yarno'
     }
