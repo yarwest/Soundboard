@@ -106,7 +106,7 @@ var files = [
 
     {
 	name: "yarno_Flokkie Flokstra!",
-	title: "Flokkie FLokstra!",
+	title: "Flokkie Flokstra!",
 	author: "yarno"
     },
 
