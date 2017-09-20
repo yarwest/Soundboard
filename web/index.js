@@ -70,7 +70,11 @@ var files = [
         title:'WTF Ricardo?!',
         author:'flokkie'
     },
-
+     {
+        name:'yarno_nou nou',
+        title:'Nou nou',
+        author:'yarno'
+    },
     {
         name:'flokkie_Wat doet ie nou',
         title:'Wat doet ie nou',
@@ -88,6 +92,12 @@ var files = [
         title:'Wat doe je nou Jos?',
         author:'flokkie'
     },
+    {
+        name:'wim_hoezo ben ik nou de piemel',
+        title:'Hoezo ben ik nou weer de piemel?',
+        author:'wim'
+    },
+
     {
         name:'flokkie_Zo fucking kansloos',
         title:'Zo fucking kansloos',
