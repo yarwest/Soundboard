@@ -10,36 +10,79 @@ var files = [
         title:'Pak ze',
         author:'flokkie'
     },
+
+    {
+        name:'jos_Hey! klootzak',
+        title:'Hey! Klootzak!',
+        author:'jos'
+    },
+
     {
         name:'flokkie_Hey Evert',
         title:'Hey Evert',
         author:'flokkie'
     },
+
+    {
+        name:'wim_Goed gehydrateerd blijven',
+        title:'Goed gehydrateerd blijven',
+        author:'wim'
+    },
+
     {
         name:'flokkie_Koekoek',
         title:'Koekoek',
         author:'flokkie'
     },
+
+    {
+        name:'yarno_Best Reload Moment Ever',
+        title:'Best Reload Moment Ever',
+        author:'yarno'
+    },
+
     {
         name:'flokkie_Twee men',
         title:'Twee men',
         author:'flokkie'
     },
+
+    {
+        name:'jelle_Kutkutkut',
+        title:'Kutkutkut',
+        author:'jelle'
+    },
+
     {
         name:'flokkie_Verkeerde knopje',
         title:'Verkeerde knopje',
         author:'flokkie'
     },
+
+    {
+        name:'wim_Ha! Ik heb mijn neus dicht',
+        title:'Ha! Ik heb mijn neus dicht',
+        author:'wim'
+    },
+
     {
         name:'flokkie_WTF Ricardo',
         title:'WTF Ricardo?!',
         author:'flokkie'
     },
+
     {
         name:'flokkie_Wat doet ie nou',
         title:'Wat doet ie nou',
         author:'flokkie'
     },
+
+    {
+        name:'yarno_Zo jammer',
+        title:'Zo jammer',
+        author:'yarno'
+    },
+    
     {
         name:'flokkie_Wat doe je nou Jos',
         title:'Wat doe je nou Jos?',
@@ -50,51 +93,27 @@ var files = [
         title:'Zo fucking kansloos',
         author:'flokkie'
     },
+
+    
+
     {
         name:'flokkie_Jaja ja',
         title:'Jaja ja',
         author:'flokkie'
     },
+
     {
         name:'flokkie_Are you the aardappel',
         title:'Are you the aardappel?',
         author:'flokkie'
     },
+
     {
         name:'flokkie_I am the aardappel',
         title:'I am the aardappel',
         author:'flokkie'
-    },
-    {
-        name:'jos_Hey! klootzak',
-        title:'Hey! Klootzak!',
-        author:'jos'
-    },
-    {
-        name:'wim_Goed gehydrateerd blijven',
-        title:'Goed gehydrateerd blijven',
-        author:'wim'
-    },
-    {
-        name:'wim_Ha! Ik heb mijn neus dicht',
-        title:'Ha! Ik heb mijn neus dicht',
-        author:'wim'
-    },
-    {
-        name:'jelle_Kutkutkut',
-        title:'Kutkutkut',
-        author:'jelle'
-    },
-    {
-        name:'yarno_Best Reload Moment Ever',
-        title:'Best Reload Moment Ever',
-        author:'yarno'
-    },
-    {
-        name:'yarno_Zo jammer',
-        title:'Zo jammer',
-        author:'yarno'
     }
+       
 ];
 
 var audio = new Audio(),
