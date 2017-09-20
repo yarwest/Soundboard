@@ -94,6 +94,12 @@ var files = [
         author:'flokkie'
     },
 
+    {
+	name: 'yarno_Flokkie Flokstra!',
+	title: 'Flokkie FLokstra!',
+	author: 'yarno'
+    },
+
     
 
     {
@@ -107,6 +113,13 @@ var files = [
         title:'Are you the aardappel?',
         author:'flokkie'
     },
+
+    {
+	name: 'yarno_wat is dit nou weer',
+	title: 'Wat is dit nou weer?',
+	author: 'yarno'
+    },
+
 
     {
         name:'flokkie_I am the aardappel',
