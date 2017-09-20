@@ -12,7 +12,7 @@ var files = [
     },
 
     {
-        name:"jos_Hey! klootzak",
+        name:"jos_Hey! Klootzak",
         title:"Hey! Klootzak!",
         author:"jos"
     },
