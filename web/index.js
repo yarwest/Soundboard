@@ -71,7 +71,7 @@ var files = [
         author:"flokkie"
     },
      {
-        name:"yarno_nou nou",
+        name:"yarno_Nou nou",
         title:"Nou nou",
         author:"yarno"
     },
@@ -86,15 +86,15 @@ var files = [
         title:"Zo jammer",
         author:"yarno"
     },
-    
+
     {
         name:"flokkie_Wat doe je nou Jos",
         title:"Wat doe je nou Jos?",
         author:"flokkie"
     },
     {
-        name:"wim_hoezo ben ik nou de piemel",
-        title:"Hoezo ben ik nou weer de piemel?",
+        name:"wim_Hoezo ben ik nou de piemel",
+        title:"Hoezo ben ik nou de piemel?",
         author:"wim"
     },
 
@@ -111,12 +111,12 @@ var files = [
     },
 
     {
-        name:"flokkie_im coming for you Jos",
+        name:"flokkie_I'm coming for you Jos",
         title:"I'm coming for you!",
         author:"flokkie"
     },
 
-    
+
 
     {
         name:"flokkie_Jaja ja",
@@ -131,8 +131,8 @@ var files = [
     },
 
     {
-	name: "yarno_wat is dit nou weer",
-	title: "Wat is dit nou weer?",
+	name: "yarno_Wat is dit nou weer",
+	title: "Wat is dit nou weer",
 	author: "yarno"
     },
 
@@ -142,7 +142,7 @@ var files = [
         title:"I am the aardappel",
         author:"flokkie"
     }
-       
+
 ];
 
 var audio = new Audio(),
