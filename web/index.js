@@ -131,9 +131,9 @@ var files = [
     },
 
     {
-	name: "yarno_Wat is dit nou weer",
-	title: "Wat is dit nou weer",
-	author: "yarno"
+    	name: "yarno_Wat is dit nou weer",
+    	title: "Wat is dit nou weer",
+    	author: "yarno"
     },
 
 
@@ -163,6 +163,6 @@ files.forEach(function(file){
 
 function play(file) {
     audio.pause()
-    audio = new Audio('../audio/'+file+'.ogg');
+    audio = new Audio('/SoundBoard/audio/'+file+'.ogg');
     audio.play();
 }
