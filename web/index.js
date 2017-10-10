@@ -116,6 +116,12 @@ var files = [
         author:"flokkie"
     },
 
+    {
+    	name:"jos_Welkom bij de eerste zelfmoord van vandaag",
+    	title: "Welkom bij de eerste zelfmoord van vandaag",
+    	author: "jos"
+    },
+
 
 
     {
