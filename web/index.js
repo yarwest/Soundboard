@@ -1,8 +1,8 @@
 /*
-	Yarno Boelens
-	Soundboard index.js
-	created on: 25 06 2017
-*/
+ Yarno Boelens
+ Soundboard index.js
+ created on: 25 06 2017
+ */
 
 var files = [
     {
@@ -70,7 +70,7 @@ var files = [
         title:"WTF Ricardo?!",
         author:"flokkie"
     },
-     {
+    {
         name:"yarno_Nou nou",
         title:"Nou nou",
         author:"yarno"
@@ -105,15 +105,21 @@ var files = [
     },
 
     {
-	name: "yarno_Flokkie Flokstra!",
-	title: "Flokkie Flokstra!",
-	author: "yarno"
+        name: "yarno_Flokkie Flokstra!",
+        title: "Flokkie Flokstra!",
+        author: "yarno"
     },
 
     {
         name:"flokkie_I'm coming for you Jos",
         title:"I'm coming for you!",
         author:"flokkie"
+    },
+
+    {
+    	name:"jos_Welkom bij de eerste zelfmoord van vandaag",
+    	title: "Welkom bij de eerste zelfmoord van vandaag",
+    	author: "jos"
     },
 
 
@@ -163,6 +169,6 @@ files.forEach(function(file){
 
 function play(file) {
     audio.pause()
-    audio = new Audio('/SoundBoard/audio/'+file+'.ogg');
+    audio = new Audio('/SoundBoard/audio/mp3/'+file+'.mp3');
     audio.play();
 }
