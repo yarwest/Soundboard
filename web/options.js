@@ -18,8 +18,14 @@ function sortByAuthor() {
 }
 
 function search() {
-
-
+    reset();
+    var searchValue = document.getElementById("searchBar").value.trim();
+    files = files.filter(function(file) {
+        if(file.title.startsWith(searchValue)) {
+            return file;
+        }
+    });
+    draw();
 }
 
 function reset() {
