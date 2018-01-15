@@ -1,4 +1,5 @@
-var authorOrder = -1;
+var authorOrder = -1,
+    tempFiles = files.slice(0);
 
 function authorCompare(a, b) {
     var returnVal = 0
@@ -13,5 +14,15 @@ function authorCompare(a, b) {
 function sortByAuthor() {
     authorOrder = authorOrder * -1;
     files.sort(authorCompare);
+    draw();
+}
+
+function search() {
+
+
+}
+
+function reset() {
+    files = tempFiles.slice(0);
     draw();
 }

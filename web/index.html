@@ -20,8 +20,12 @@
             </div>
             <div id="page-body">
                 <div id="control-elements">
+                    <input type="text" id="searchBar" placeholder="Search" onkeyup="search()"></input>
                     <button onclick="sortByAuthor()">
                         Sort by author
+                    </button>
+                    <button onclick="reset()">
+                        Reset
                     </button>
                 </div>
                 <div id="soundItemContainer">
