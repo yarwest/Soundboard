@@ -19,9 +19,9 @@ function sortByAuthor() {
 
 function search() {
     reset();
-    var searchValue = document.getElementById("searchBar").value.trim();
+    var searchValue = document.getElementById("searchBar").value.trim().toLowerCase();
     files = files.filter(function(file) {
-        if(file.title.startsWith(searchValue)) {
+        if(file.title.toLowerCase().startsWith(searchValue)) {
             return file;
         }
     });
