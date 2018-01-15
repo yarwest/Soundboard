@@ -4,6 +4,10 @@ var files = [
         title:"Pak ze",
         author:"flokkie"
     },
+    {	name: "wim_Soldaat Reuterink!",
+	title: "Soldaat Reuterink!",
+	author: "wim",
+    },
     {
         name:"jos_Hey! Klootzak",
         title:"Hey! Klootzak!",
