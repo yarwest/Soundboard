@@ -22,6 +22,6 @@ files.forEach(function(file){
 
 function play(file) {
     audio.pause()
-    audio = new Audio('../audio/mp3/'+file+'.mp3');
+    audio = new Audio('/SoundBoard/audio/mp3/'+file+'.mp3');
     audio.play();
 }
