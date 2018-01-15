@@ -19,10 +19,21 @@
                 <h1 id="logo">SOUNDBOARD</h1>
             </div>
             <div id="page-body">
+                <div id="control-elements">
+                    <input type="text" id="searchBar" placeholder="Search" onkeyup="search()"></input>
+                    <button onclick="sortByAuthor()">
+                        Sort by author
+                    </button>
+                    <button onclick="reset()">
+                        Reset
+                    </button>
+                </div>
+                <div id="soundItemContainer">
+                </div>
             </div>
         </div>
-
         <script src="/SoundBoard/web/files.js"></script>
         <script src="/SoundBoard/web/index.js"></script>
+        <script src="/SoundBoard/web/options.js"></script>
     </body>
 </html>

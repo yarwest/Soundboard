@@ -5,20 +5,25 @@
  */
 
 var audio = new Audio(),
-    pageBody = document.getElementById('page-body');
+    container = document.getElementById('soundItemContainer');
 
-files.forEach(function(file){
-    var p = document.createElement("p"),
-        text = document.createTextNode(file.title);
-    p.appendChild(text);
-    var div = document.createElement("div");
-    div.appendChild(p);
-    div.className += "soundItem " + file.author;
-    div.onclick = function(){
-        play(file.name);
-    };
-    pageBody.appendChild(div);
-});
+draw();
+
+function draw() {
+    container.innerHTML = "";
+    files.forEach(function(file){
+        var p = document.createElement("p"),
+            text = document.createTextNode(file.title);
+        p.appendChild(text);
+        var div = document.createElement("div");
+        div.appendChild(p);
+        div.className += "soundItem " + file.author;
+        div.onclick = function(){
+            play(file.name);
+        };
+        container.appendChild(div);
+    });
+}
 
 function play(file) {
     audio.pause()
