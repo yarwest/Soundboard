@@ -4,6 +4,10 @@ var files = [
         title:"Pak ze",
         author:"flokkie"
     },
+    {	name: "wim_Soldaat Reuterink!",
+	title: "Soldaat Reuterink!",
+	author: "wim",
+    },
     {
         name:"jos_Hey! Klootzak",
         title:"Hey! Klootzak!",
@@ -23,6 +27,11 @@ var files = [
         name:"flokkie_Koekoek",
         title:"Koekoek",
         author:"flokkie"
+    },
+    {
+	name: "wim_Godsamme, krijg toch de vinkentering man!",
+	title: "Godsamme, krijg toch de vinkentering man!",
+	author: "wim"
     },
     {
         name:"yarno_Best Reload Moment Ever",
@@ -58,6 +67,10 @@ var files = [
         name:"yarno_Nou nou",
         title:"Nou nou",
         author:"yarno"
+    },
+    {	name: "wim_ neeneenee, zo werkt dat niet jongeman",
+	title:"Nee nee, zo werkt dat niet jongeman",
+	author: "wim"
     },
     {
         name:"flokkie_Wat doet ie nou",
