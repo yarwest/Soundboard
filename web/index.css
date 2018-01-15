@@ -45,7 +45,14 @@ body {
     position: relative;
     padding-right: 15px;
     padding-left: 15px;
+}
 
+#control-elements {
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#soundItemContainer {
     display: -webkit-flex;
     display: flex;
 
@@ -91,8 +98,6 @@ body {
     padding-left: 7px;
     padding-right: 7px;
 }
-
-
 
 .flokkie {
     background-image: url("../images/flokkie.jpg");
