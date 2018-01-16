@@ -18,8 +18,10 @@ function sortByAuthor() {
 }
 
 function search() {
-    reset();
     var searchValue = document.getElementById("searchBar").value.trim().toLowerCase();
+    reset();
+    //TODO: find something to replace this workaround.
+    document.getElementById("searchBar").value = searchValue;
     files = files.filter(function(file) {
         if(file.title.toLowerCase().startsWith(searchValue)) {
             return file;
