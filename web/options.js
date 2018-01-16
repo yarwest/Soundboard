@@ -31,4 +31,5 @@ function search() {
 function reset() {
     files = tempFiles.slice(0);
     draw();
+    document.getElementById("searchBar").value="";
 }
