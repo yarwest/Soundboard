@@ -15,6 +15,11 @@ var files = [
         author:"jos"
     },
     {
+        name: "yarno_Wim",
+        title: "Wim",
+        author: "yarno"
+    },
+    {
         name:"flokkie_Hey Evert",
         title:"Hey Evert",
         author:"flokkie"
@@ -23,6 +28,11 @@ var files = [
         name:"wim_Goed gehydrateerd blijven",
         title:"Goed gehydrateerd blijven",
         author:"wim"
+    },
+    {
+        name:"buunk_Konijnen plukker",
+        title:"Konijnen plukker",
+        author:"buunk"
     },
     {
         name:"flokkie_Koekoek",
@@ -50,6 +60,16 @@ var files = [
         author:"jelle"
     },
     {
+        name:"buunk_80 jarige porno",
+        title:"80 jarige porno",
+        author:"buunk"
+    },
+    {
+        name: "yarno_Dit is een ban",
+        title: "Dit is een ban",
+        author: "yarno"
+    },
+    {
         name:"flokkie_Verkeerde knopje",
         title:"Verkeerde knopje",
         author:"flokkie"
@@ -68,6 +88,11 @@ var files = [
         name:"yarno_Nou nou",
         title:"Nou nou",
         author:"yarno"
+    },
+    {
+        name:"flokkie_Wim",
+        title:"Wim",
+        author:"flokkie"
     },
     {
         name: "wim_ neeneenee, zo werkt dat niet jongeman",
@@ -90,6 +115,21 @@ var files = [
         author:"flokkie"
     },
     {
+        name:"buunk_Remmen is angst",
+        title:"Remmen is angst",
+        author:"buunk"
+    },
+    {
+        name:"flokkie_Full gas",
+        title:"Full gas",
+        author:"flokkie"
+    },
+    {
+        name:"buunk_Vuusten",
+        title:"Vuusten",
+        author:"buunk"
+    },
+    {
         name:"wim_Hoezo ben ik nou de piemel",
         title:"Hoezo ben ik nou de piemel?",
         author:"wim"
@@ -110,6 +150,11 @@ var files = [
         author:"flokkie"
     },
     {
+        name:"buunk_Wim",
+        title:"Wim",
+        author:"buunk"
+    },
+    {
     	name:"jos_Welkom bij de eerste zelfmoord van vandaag",
     	title: "Welkom bij de eerste zelfmoord van vandaag",
     	author: "jos"
@@ -128,6 +173,11 @@ var files = [
         name:"flokkie_Are you the aardappel",
         title:"Are you the aardappel?",
         author:"flokkie"
+    },
+    {
+        name:"buunk_Watn homos",
+        title:"Watn homos",
+        author:"buunk"
     },
     {
         name: "yarno_Wat is dit nou weer",
